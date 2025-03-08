@@ -117,22 +117,22 @@ h2 {
 
 /* First button */
 .feature:nth-child(1) .content-icon {
-    background-image: url("feature-icon-trading.png");
+    background-image: url("../images/feature-icon-trading.png");
 }
 
 /* Second button */
 .feature:nth-child(2) .content-icon {
-    background-image: url("feature-icon-pricing.png");
+    background-image: url("../images/feature-icon-pricing.png");
 }
 
 /* Third button */
 .feature:nth-child(3) .content-icon {
-    background-image: url("feature-icon-watchlist.png");
+    background-image: url("../images/feature-icon-watchlist.png");
 }
 
 /* Fourth button */
 .feature:nth-child(4) .content-icon {
-    background-image: url("feature-icon-family.png");
+    background-image: url("../images/feature-icon-family.png");
 }
 
 .explore {

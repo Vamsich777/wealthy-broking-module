@@ -31,7 +31,7 @@ featureImages[0].classList.add("active");
 featureButtons.forEach((button, index) => {
     button.addEventListener("click", function () {
         // Remove active class from all images
-        featureImages.forEach(img => img.classList.remove("active"));
+        featureImages.forEach(feature => feature.classList.remove("active"));
 
         // Add active class to the clicked button's image
         featureImages[index].classList.add("active");
