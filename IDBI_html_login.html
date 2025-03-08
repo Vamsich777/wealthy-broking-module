@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wealthy Login</title>
+    <link rel="stylesheet" href="IDBI_css_login.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="company-logo">
+            <img class="wealthy-logo" src="wealthy-logo-img.png" alt="Wealthy Logo" class="logo" />
+        </div>
+
+        <div class="login-form-container">
+            <div class="error-box">
+                <div class="alert alert-danger auth-alert" role="alert">
+                    <p id="error-content"></p>
+                </div>
+            </div>
+
+            <h2>Welcome to Wealthy</h2>
+            <p class="description">
+                Enter your registered phone number to get an OTP to login to your
+                Wealth Partner account.
+            </p>
+
+            <div class="country-code-mb-number">
+                <select id="countryCode">
+                    <option value="+91">India (+91)</option>
+                    <option value="+1">USA (+1)</option>
+                    <option value="+966">Saudi Arabia (+966)</option>
+                    <option value="+64">New Zealand (+64)</option>
+                    <option value="+65">Singapore (+65)</option>
+                    <option value="+60">Malaysia (+60)</option>
+                </select>
+                <input type="tel" maxlength="10" minlength="9" id="phoneNumber" placeholder="Enter your Phone Number" />
+            </div>
+
+            <div class="captcha-box">
+                <input type="checkbox" id="captchaCheckbox">
+                <label for="captchaCheckbox">I am not a robot</label>
+                <span class="verified">✔ You are verified!</span>
+            </div>
+
+            <div class="btn-container">
+                <button id="loginBtn">Login via OTP</button>
+                <a href="#" class="main-back-link">Or <span class="back-link">Back to Login Options</span></a>
+            </div>
+        </div>
+
+        <div class="features">
+            <img src="curated-investing.svg" alt="Curated Investing" class="logo" />
+            <img src="completely-digitalised.svg" alt="Completely Digitalised" class="logo" />
+            <img src="bank-grade-security.svg" alt="Bank Grade Security" class="logo" />
+            <img src="help-centers.svg" alt="Help Centers" class="logo" />
+        </div>
+    </div>
+
+    <script src="IDBI_js_login.js"></script>
+</body>
+
+</html>
